@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+    font-size: large;
+    background: 
+        linear-gradient(
+            to right,
+            rgba(100, 200, 200, 1),
+            rgba(100, 200, 200, 1)
+        ),
+        linear-gradient(
+            to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0,100,200,1)
+        );
+        background-size: 100% 3px, 0 3px;
+        background-position: 100% 100%, 0 100%;
+        background-repeat: no-repeat;
+        transition: background-size 400ms;
+}
+a:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+span {
+    text-align: center;
+}
+
+head {
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Space mono", monospace;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Space mono", monospace;
+}
+li { 
+    align-items: center;
+}
+center {
+    text-align: center;
+}
+title {
+    text-align: center;
+}
+
+
+
